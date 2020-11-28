@@ -1,0 +1,281 @@
+
+Kaiju-clasificado CULTIVADO, hay q hacer dos uno con /1 y otro con /2
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217276.out > lista_Uclasi_cult_SRR3217276_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217277.out > lista_Uclasi_cult_SRR3217277_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217298.out > lista_Uclasi_cult_SRR3217298_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217299.out > lista_Uclasi_cult_SRR3217299_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217301.out > lista_Uclasi_cult_SRR3217301_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217304.out > lista_Uclasi_cult_SRR3217304_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217315.out > lista_Uclasi_cult_SRR3217315_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217317.out > lista_Uclasi_cult_SRR3217317_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217318.out > lista_Uclasi_cult_SRR3217318_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_cultivado_SRR3217319.out > lista_Uclasi_cult_SRR3217319_1.txt
+
+
+-----------------------------
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217276.out > lista_Uclasi_cult_SRR3217276_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217277.out > lista_Uclasi_cult_SRR3217277_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217298.out > lista_Uclasi_cult_SRR3217298_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217299.out > lista_Uclasi_cult_SRR3217299_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217301.out > lista_Uclasi_cult_SRR3217301_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217304.out > lista_Uclasi_cult_SRR3217304_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217315.out > lista_Uclasi_cult_SRR3217315_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217317.out > lista_Uclasi_cult_SRR3217317_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217318.out > lista_Uclasi_cult_SRR3217318_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_cultivado_SRR3217319.out > lista_Uclasi_cult_SRR3217319_2.txt
+
+
+
+Kaiju-clasificado SILVESTRE
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217278.out > lista_Uclasi_silv_SRR3217278_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217279.out > lista_Uclasi_silv_SRR3217279_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217280.out > lista_Uclasi_silv_SRR3217280_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217281.out > lista_Uclasi_silv_SRR3217281_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217282.out > lista_Uclasi_silv_SRR3217282_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217283.out > lista_Uclasi_silv_SRR3217283_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217284.out > lista_Uclasi_silv_SRR3217284_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217292.out > lista_Uclasi_silv_SRR3217292_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217294.out > lista_Uclasi_silv_SRR3217294_1.txt
+
+awk '/U/ {print $2"/1"}' kaiju_silvestre_SRR3217297.out > lista_Uclasi_silv_SRR3217297_1.txt
+
+
+-----------------------------------------------------------------
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217278.out > lista_Uclasi_silv_SRR3217278_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217279.out > lista_Uclasi_silv_SRR3217279_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217280.out > lista_Uclasi_silv_SRR3217280_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217281.out > lista_Uclasi_silv_SRR3217281_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217282.out > lista_Uclasi_silv_SRR3217282_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217283.out > lista_Uclasi_silv_SRR3217283_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217284.out > lista_Uclasi_silv_SRR3217284_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217292.out > lista_Uclasi_silv_SRR3217292_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217294.out > lista_Uclasi_silv_SRR3217294_2.txt
+
+awk '/U/ {print $2"/2"}' kaiju_silvestre_SRR3217297.out > lista_Uclasi_silv_SRR3217297_2.txt
+
+
+
+Kaiju-clasificdo -Eukaryota SILVESTRE Eukaryota
+
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom1.out > lista_silv_Eukaryota_SRR3217278_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom2.out > lista_silv_Eukaryota_SRR3217279_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom3.out > lista_silv_Eukaryota_SRR3217280_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom4.out > lista_silv_Eukaryota_SRR3217281_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom5.out > lista_silv_Eukaryota_SRR3217282_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom6.out > lista_silv_Eukaryota_SRR3217283_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom7.out > lista_silv_Eukaryota_SRR3217284_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom8.out > lista_silv_Eukaryota_SRR3217292_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom9.out > lista_silv_Eukaryota_SRR3217294_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_silv_superkingdom10.out > lista_silv_Eukaryota_SRR3217297_1.txt
+
+-----------------------------------------
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom1.out > lista_silv_Eukaryota_SRR3217278_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom2.out > lista_silv_Eukaryota_SRR3217279_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom3.out > lista_silv_Eukaryota_SRR3217280_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom4.out > lista_silv_Eukaryota_SRR3217281_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom5.out > lista_silv_Eukaryota_SRR3217282_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom6.out > lista_silv_Eukaryota_SRR3217283_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom7.out > lista_silv_Eukaryota_SRR3217284_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom8.out > lista_silv_Eukaryota_SRR3217292_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom9.out > lista_silv_Eukaryota_SRR3217294_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_silv_superkingdom10.out > lista_silv_Eukaryota_SRR3217297_2.txt
+
+
+Kaiju-clasificdo -Eukaryota CULTIVADO Eukaryota
+
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom1.out > lista_cult_Eukaryota_SRR3217276_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom2.out > lista_cult_Eukaryota_SRR3217277_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom3.out > lista_cult_Eukaryota_SRR3217298_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom4.out > lista_cult_Eukaryota_SRR3217299_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom5.out > lista_cult_Eukaryota_SRR3217301_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom6.out > lista_cult_Eukaryota_SRR3217304_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom7.out > lista_cult_Eukaryota_SRR3217315_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom8.out > lista_cult_Eukaryota_SRR3217317_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom9.out > lista_cult_Eukaryota_SRR3217318_1.txt
+
+awk '/Eukaryota/ {print $2"/1"}' kaiju_names_cult_superkingdom10.out > lista_cult_Eukaryota_SRR3217319_1.txt
+
+-----------------------------------------
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom1.out > lista_cult_Eukaryota_SRR3217276_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom2.out > lista_cult_Eukaryota_SRR3217277_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom3.out > lista_cult_Eukaryota_SRR3217298_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom4.out > lista_cult_Eukaryota_SRR3217299_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom5.out > lista_cult_Eukaryota_SRR3217301_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom6.out > lista_cult_Eukaryota_SRR3217304_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom7.out > lista_cult_Eukaryota_SRR3217315_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom8.out > lista_cult_Eukaryota_SRR3217317_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom9.out > lista_cult_Eukaryota_SRR3217318_2.txt
+
+awk '/Eukaryota/ {print $2"/2"}' kaiju_names_cult_superkingdom10.out > lista_cult_Eukaryota_SRR3217319_2.txt
+
+
+_______________________________
+
+Unir Archivos SILVESTRE - super kingdom Eukaryota
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217278_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217278_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217278_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217279_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217279_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217279_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217280_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217280_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217280_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217281_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217281_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217281_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217282_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217282_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217282_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217283_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217283_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217283_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217284_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217284_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217284_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217292_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217292_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217292_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217294_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217294_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217294_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217297_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217297_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217297_1.txt
+
+-------------------------------------------
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217278_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217278_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217278_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217279_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217279_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217279_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217280_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217280_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217280_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217281_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217281_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217281_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217282_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217282_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217282_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217283_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217283_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217283_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217284_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217284_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217284_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217292_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217292_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217292_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217294_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217294_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217294_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_silv_SRR3217297_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_silv_Eukaryota_SRR3217297_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_silv-Eukaryota_SRR3217297_2.txt
+
+
+
+
+Unir Archivos CULTIVADO - super kingdom Eukaryota
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217276_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217276_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217276_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217277_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217277_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217277_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217298_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217298_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217298_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217299_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217299_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217299_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217301_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217301_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217301_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217304_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217304_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217304_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217315_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217315_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217315_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217317_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217317_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217317_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217318_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217318_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217318_1.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217319_1.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217319_1.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217319_1.txt
+
+----------------------------------
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217276_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217276_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217276_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217277_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217277_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217277_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217298_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217298_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217298_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217299_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217299_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217299_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217301_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217301_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217301_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217304_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217304_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217304_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217315_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217315_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217315_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217317_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217317_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217317_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217318_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217318_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217318_2.txt
+
+cat /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/lista_Uclasi_cult_SRR3217319_2.txt /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/kaiju-clasificado-eukaryota/lista_cult_Eukaryota_SRR3217319_2.txt > /BIOS-Share/home/areyesb/kaiju/kaiju-secuencias/kaiju-grupos/Archivos-listas-eukaryota/Lista_filtro_cult-Eukaryota_SRR3217319_2.txt
+
+
