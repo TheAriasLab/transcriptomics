@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J trinity_cultivado_eu
+#SBATCH -o trinity_cultiva_eu_out.log
+#SBATCH -e trinity_cutiva_eu_err.log
+#SBATCH -n 32
+#SBATCH --partition=normal
+
+module load software/bioinformatics/trinityrnaseq/2.8.4
+
+#Cultivado
+#SRR3217276 SRR3217277 SRR3217298 SRR3217299 SRR3217301 SRR3217304 SRR3217315 SRR3217317 SRR3217318 SRR3217319
+
+Trinity --seqType fq --max_memory 150G --left /BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217276_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217277_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217298_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217299_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217301_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217304_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217315_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217317_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217318_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217319_1_Paired_filtrado.fastq --right /BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217276_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217277_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217298_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217299_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217301_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217304_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217315_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217317_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217318_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Cultivado_filtrado_eukaryota/SRR3217319_2_Paired_filtrado.fastq --CPU 32

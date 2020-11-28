@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J trinity_silv_eu
+#SBATCH -o trinity_silv_eu_out.log
+#SBATCH -e trinity_silv_eu_err.log
+#SBATCH -n 32
+#SBATCH --partition=normal
+
+module load software/bioinformatics/trinityrnaseq/2.8.4
+
+#silvestre con los datos filtrados solo de Bacterya
+#SRR3217278 SRR3217279 SRR3217280 SRR3217281 SRR3217282 SRR3217283 SRR3217284 SRR3217292 SRR3217294 SRR3217297
+
+Trinity --seqType fq --max_memory 150G --left /BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217278_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217279_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217280_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217281_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217282_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217283_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217284_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217292_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217294_1_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217297_1_Paired_filtrado.fastq --right /BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217278_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217279_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217280_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217281_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217282_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217283_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217284_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217292_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217294_2_Paired_filtrado.fastq,/BIOS-Share/home/areyesb/TrimmomaticResult/Silvestre_filtrado_eukaryota/SRR3217297_2_Paired_filtrado.fastq --CPU 32
